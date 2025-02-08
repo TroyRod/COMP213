@@ -1,13 +1,69 @@
-body {
-  background-color: #FFFFFF;
-
-  color: #666666;
-
+body{
+  background-color:#FFFFFF;
+  color:#666666;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  background-color: #000033;
+header{
+  background:url(../images/sunset.jpg) no-repeat right;
+  background-color:#000033;
+  color:#FFFFFF;
+  line-height:400%;
+  text-indent:1em;
+}
 
-  color:#FFFFFF
+h1,h2,h3{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  margin-bottom:0px;
+}
+
+nav {
+  background-color:#90C7E3;
+  font-weight:bold;
+}
+
+h2,h3{
+  color:#000033;
+}
+
+ul{
+  list-style-image: url(../images/marker.gif);
+}
+
+table, td, th{
+  border: 2px solid #3399CC;
+  border-collapse: collapse;
+}
+
+td, th{
+  padding: 0.5em;
+}
+
+td{
+  text-align:center;
+}
+
+.left{
+  text-align:left;
+}
+
+tbody > tr:nth-child(odd){
+  background-color:#F5FAFC;
+}
+
+footer{
+  font-size:75%;
+}
+
+.resort{
+  color:#5C7FA3;
+  font-weight:bold;
+}
+
+#contact{
+  font-size:90%;
 }
 
